@@ -1,0 +1,33 @@
+# Core Framework
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.6.0
+pydantic-settings>=2.1.0
+python-dotenv>=1.0.0
+
+# LangChain & LLM
+langchain>=0.1.10
+langchain-community>=0.0.25
+langchain-text-splitters>=0.0.1
+
+# Vector Store
+chromadb>=0.4.24
+
+# Embeddings (local)
+sentence-transformers>=2.5.0
+
+# Web Scraping
+beautifulsoup4>=4.12.3
+requests>=2.31.0
+aiohttp>=3.9.0
+lxml>=5.1.0
+
+# Chat UI
+chainlit>=1.1.0
+
+# Utilities
+httpx>=0.27.0
+tenacity>=8.2.3
+
+# Logging & Monitoring
+structlog>=24.1.0
